@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Company>www.pratikpatil.net</Company>
+    <Authors>Pratik Patil</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Basics.Syslog.Net\Basics.Syslog.Net.csproj" />
+    <ProjectReference Include="..\Basics.Syslog\Basics.Syslog.csproj" />
+  </ItemGroup>
+
+</Project>
